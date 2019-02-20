@@ -1,0 +1,68 @@
+/*
+
+	INSTRUCTIONS ---------------------------------------------------------------------------------
+  
+  1. link this stylesheet in the head of your HTML
+  	 <link href="YOUR PATH/custom-style-calendar.css" rel="stylesheet" type="text/css" />
+     
+  2. Set the file name as data-theme attribute on your input
+  	 <input data-theme="custom-style-calendar" />
+     
+  3. That's it!
+  
+  When you run script the style will be automatically applied.
+
+*/
+div.datedropper.custom-style-calendar {
+  border-radius: 8px;
+  width: 172px;
+}
+div.datedropper.custom-style-calendar .picker {
+  border-radius: 8px;
+  box-shadow: 0 0 43px 3px rgba(0, 0, 0, 0.3);
+}
+div.datedropper.custom-style-calendar .pick-l {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+div.datedropper.custom-style-calendar:before,
+div.datedropper.custom-style-calendar .pick-submit,
+div.datedropper.custom-style-calendar .pick-lg-b .pick-sl:before,
+div.datedropper.custom-style-calendar .pick-m,
+div.datedropper.custom-style-calendar .pick-lg-h {
+  background-color: #fd4741;
+}
+div.datedropper.custom-style-calendar .pick-y.pick-jump,
+div.datedropper.custom-style-calendar .pick li span,
+div.datedropper.custom-style-calendar .pick-lg-b .pick-wke,
+div.datedropper.custom-style-calendar .pick-btn {
+  color: #fd4741;
+}
+div.datedropper.custom-style-calendar .picker,
+div.datedropper.custom-style-calendar .pick-l {
+  background-color: #FFF;
+}
+div.datedropper.custom-style-calendar .picker,
+div.datedropper.custom-style-calendar .pick-arw,
+div.datedropper.custom-style-calendar .pick-l {
+  color: #4D4D4D;
+}
+div.datedropper.custom-style-calendar .pick-m,
+div.datedropper.custom-style-calendar .pick-m .pick-arw,
+div.datedropper.custom-style-calendar .pick-lg-h,
+div.datedropper.custom-style-calendar .pick-lg-b .pick-sl,
+div.datedropper.custom-style-calendar .pick-submit {
+  color: #FFF;
+}
+div.datedropper.custom-style-calendar.picker-tiny:before,
+div.datedropper.custom-style-calendar.picker-tiny .pick-m {
+  background-color: #FFF;
+}
+div.datedropper.custom-style-calendar.picker-tiny .pick-m,
+div.datedropper.custom-style-calendar.picker-tiny .pick-m .pick-arw {
+  color: #4D4D4D;
+}
+div.datedropper.custom-style-calendar.picker-lkd .pick-submit {
+  background-color: #FFF;
+  color: #4D4D4D;
+}

@@ -1,0 +1,146 @@
+ @import "http://fonts.fontstorage.com/import/ubuntu.css";
+/*
+	Ubuntu, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700, 700 italic
+*/
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/lobster */
+@import "http://fonts.fontstorage.com/import/lobster.css";
+/*
+	Lobster, 400
+*/
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/gagalin */
+@import "http://fonts.fontstorage.com/import/gagalin.css";
+/*
+	Gagalin, 400
+*/
+
+body{
+	/*background-image: url("../img/new-york-black-and-white-skyline.jpg");*/
+
+}
+/*Allow do not show pallet */
+html { overflow-x:  hidden; }
+ #div-bckgimg{
+/* 	position:absolute;*/
+	position: fixed;
+ 	z-index:-1;
+ 	left:0;
+ 	top:0;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#bckgimg{
+	/*top:100px;*/
+	width:100%;
+ 	height:100%;
+}
+
+.headertaxi{
+	background-color: #383838;
+/*	background-color: #07889B;*/
+	height: 60px;
+	font-family: 'Gagalin';
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 900;
+	display: block;
+	text-align: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
+}
+.headertext{
+	padding-top: 10px;
+    display: block;
+}
+.dvbox{
+
+}
+.padding20px{
+	padding-top: 20px;
+}
+.dvbox{
+	box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+	height: 100px;
+	background-color: #ffffff;
+}
+.dvboxhead{
+	background-color: #e5e5e5;
+	/*background-color: rgba(206, 206, 206, 0.2);*/
+	background-color: rgba(216, 216, 216, 1);
+	font-family: "Ubuntu";
+	padding: 5px;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+}
+.dvboxbottom{
+	background-color: #ffffff;
+	font-family: "Ubuntu";
+	padding: 5px;
+	
+}
+.heightwidth100{
+	height: 100%;
+	width: 100%;
+}
+.width100prc{
+	width: 100%;
+}.height100prc{
+	height: 100%;
+}
+.padding5px{
+	padding: 5px;
+}
+
+.borderdrop{
+	height: 34px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.48);
+}
+
+.pick .pick-m{
+/*	background-color: #41b8fd !important;*/
+}
+
+.pick-lg-h {
+    background-color: #41b8fd !important;
+}
+
+#BusImg{
+	height: 80px;
+	width: 160px;
+	bottom: 100px;
+	/*margin-top: 20%;*/
+	position: absolute;
+	left: -100px;
+	/*box-shadow: -1px 7px 10px -3px rgba(0,0,0,0.3)*/
+/*	animation: jumpbus 1s linear infinite;
+*/}
+
+/*@keyframes jumpbus {
+  0% { height: 70px; }
+  100% { height: 50px; }
+}*/
+
+.admin-bckg{
+	background-color: rgba(255,255,255,0.9);
+}
+
+.margin-bottom10px{
+	margin-bottom: 10px;
+}
+.dvboxheadadm{
+	/*background-color: #e5e5e5;*/
+	/*background-color: rgba(206, 206, 206, 0.2);*/
+	/*background-color: rgba(216, 216, 216, 1);*/
+	font-family: "Ubuntu";
+	padding: 5px;
+	font-weight: 900;
+	font-size: 16px;
+	text-align: center;
+
+}
+#adminpaneltaxi{
+	border-radius: 5px;
+    border: 1px solid #777777;
+}
